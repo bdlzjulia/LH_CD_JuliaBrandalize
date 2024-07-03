@@ -1,4 +1,4 @@
-Este projeto realiza uma análise de dados de filmes, incluindo previsões de avaliações com base em características como pontuação no Meta Score, número de votos e receita bruta. Inclui um Jupyter Notebook para análise e um arquivo de modelo salvo para previsões.
+Este projeto realiza uma análise com a base de dados desafio_indicium_imdb.csv, incluindo previsões de avaliações com base em características como pontuação no Meta Score, número de votos e receita bruta. Inclui um Jupyter Notebook para análise e um arquivo de modelo salvo para previsões.
 
 ### Estrutura do Projeto
 
