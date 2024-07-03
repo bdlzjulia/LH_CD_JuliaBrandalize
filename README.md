@@ -13,15 +13,19 @@ Antes de executar o projeto, você precisa instalar as seguintes bibliotecas. Vo
 
 Clone o repositório para sua máquina local:
 
-`git clone https://github.com/SeuUsuario/SeuRepositorio.git`
+`https://github.com/bdlzjulia/LH_CD_JuliaBrandalize.git`
 
-`cd SeuRepositorio`
+`cd LH_CD_JuliaBrandalize`
 
 ### Crie um Ambiente Virtual (Opcional, mas recomendado)
 
 `python -m venv venv`
 
-`source venv/bin/activate  # No Windows, use: venv\Scripts\activate`
+`source venv/bin/activate`
+
+No windows, use:
+
+`venv\Scripts\activate`
 
 ### Instale as Dependências
 
