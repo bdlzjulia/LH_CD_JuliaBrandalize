@@ -31,7 +31,7 @@ No windows, use:
 
 `pip install -r requirements.txt`
 
-Se o arquivo requirements.txt não estiver disponível, você pode instalar manualmente as seguintes bibliotecas:
+Se o arquivo requirements.txt não estiver funcionando, você pode instalar manualmente as seguintes bibliotecas:
 
 `pip install numpy pandas scikit-learn matplotlib seaborn jupyter`
 
@@ -49,4 +49,4 @@ No navegador, abra o arquivo LH_CD.ipynb para visualizar e executar o código.
 
 ### Carregue o Modelo
 
-O Jupyter Notebook contém células que demonstram como carregar e usar o modelo salvo (modelo.pkl). Certifique-se de que o arquivo modelo.pkl está no mesmo diretório do notebook ou forneça o caminho correto no código.
+O Jupyter Notebook contém células que demonstram como carregar e usar o modelo salvo (modelo.pkl). Certifique-se de que o arquivo modelo.pkl está no mesmo diretório do notebook.
