@@ -14,11 +14,13 @@ Antes de executar o projeto, você precisa instalar as seguintes bibliotecas. Vo
 Clone o repositório para sua máquina local:
 
 `git clone https://github.com/SeuUsuario/SeuRepositorio.git`
+
 `cd SeuRepositorio`
 
 ### Crie um Ambiente Virtual (Opcional, mas recomendado)
 
 `python -m venv venv`
+
 `source venv/bin/activate  # No Windows, use: venv\Scripts\activate`
 
 ### Instale as Dependências
