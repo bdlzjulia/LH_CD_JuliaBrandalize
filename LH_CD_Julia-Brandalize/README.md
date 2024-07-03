@@ -1,23 +1,46 @@
-# Try Jupyter, powered by JupyterLite
+Este projeto realiza uma análise de dados de filmes, incluindo previsões de avaliações com base em características como pontuação no Meta Score, número de votos e receita bruta. Inclui um Jupyter Notebook para análise e um arquivo de modelo salvo para previsões.
 
-[![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://jupyter.org/try-jupyter)
+### Estrutura do Projeto
 
-A tour of Jupyter and IPython, powered by JupyterLite.
+- LH_CD.ipynb: Jupyter Notebook contendo a análise de dados, visualizações e o treinamento do modelo.
+- modelo.pkl: Arquivo contendo o modelo treinado, salvo para uso posterior.
+  
+### Pré-requisitos
 
-## ✨ Try it in your browser ✨
+Antes de executar o projeto, você precisa instalar as seguintes bibliotecas. Você pode instalar todas elas usando o arquivo requirements.txt incluído neste repositório.
 
-➡️ **https://jupyter.org/try-jupyter**
+### Instalação das Dependências
 
-Clicking the link above should load a JupyterLab environment running in your browser. Open the Introductory notebook at `content/Intro.ipynb` to get started.
+Clone o repositório para sua máquina local:
 
-## About this repository
+`git clone https://github.com/SeuUsuario/SeuRepositorio.git`
+`cd SeuRepositorio`
 
-This is a demonstration repository meant for use at `try.jupyter.org`. It uses the [JupyterLite project](https://jupyterlite.readthedocs.io/en/latest/) to embed a self-contained Jupyter environment in the browser, along with many popular packages in scientific computing.
+### Crie um Ambiente Virtual (Opcional, mas recomendado)
 
-It uses GitHub pages to serve the JupyterLite bundle, and is accessible at https://jupyter.org/try-jupyter.
+`python -m venv venv`
+`source venv/bin/activate  # No Windows, use: venv\Scripts\activate`
 
-### How to edit these notebooks
+### Instale as Dependências
 
-The notebooks in this repository are written with [JupyterLite kernels](https://jupyterlite.readthedocs.io/en/latest/kernels/index.html), so if you edit them locally, you will likely over-write the kernel information with your local kernels.
-As such, the easiest way to make edits to them is to do so [**via the Try Jupyter Page**](https://jupyter.org/try-jupyter).
-Make the edits you wish at that URL, then download the notebook and replace the one in a repository locally.
+`pip install -r requirements.txt`
+
+Se o arquivo requirements.txt não estiver disponível, você pode instalar manualmente as seguintes bibliotecas:
+
+`pip install numpy pandas scikit-learn matplotlib seaborn jupyter`
+
+### Executando o Projeto
+
+No diretório do projeto, inicie o Jupyter Notebook:
+
+`jupyter notebook`
+
+Isso abrirá o Jupyter Notebook no seu navegador padrão.
+
+### Abra o Notebook
+
+No navegador, abra o arquivo LH_CD.ipynb para visualizar e executar o código.
+
+### Carregue o Modelo
+
+O Jupyter Notebook contém células que demonstram como carregar e usar o modelo salvo (modelo.pkl). Certifique-se de que o arquivo modelo.pkl está no mesmo diretório do notebook ou forneça o caminho correto no código.
